@@ -1,0 +1,11 @@
+import math
+import numpy as np
+import signal
+import sys
+import time
+import serial
+
+#serial connections for the sensors
+compass = serial.Serial('')
+gps = serial.Serial('')
+lidar = serial.Serial('')
